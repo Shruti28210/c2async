@@ -76,6 +76,17 @@
       "twelth_score": "78",
       "preferred_branch": "sports",
       "id": 7
+    },
+    {
+      "first_name": "ladu",
+      "last_name": "kk",
+      "email": "ladu@gmail.com",
+      "gender": "male",
+      "age": "12",
+      "tenth_score": "69",
+      "twelth_score": "36",
+      "preferred_branch": "commerce",
+      "id": 8
     }
   ]
 }

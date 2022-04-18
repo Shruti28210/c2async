@@ -2,6 +2,6 @@
   text-align: center;
 }
 
-.first_name .row{
+.first_name,  .last_name ,.email, .gender, .age, .tenth_score, .twelth_score,.preferred_branch{
   border: 1px solid black;
 }
