@@ -43,7 +43,7 @@ export const ShowStudents = ({data}) => {
         </thead>
         <tbody className="tbody">
           {/* populate all rows like below: */}
-          {data.map((el) => (<tr key ={el.id}>
+          {data.map((el) => (<tr className="row" key ={el.id}>
             <td className="first_name">{el.first_name}</td>
             <td className="last_name">{el.last_name}</td>
             <td className="email">{el.email}</td>

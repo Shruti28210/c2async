@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <button className="togglebtn"></button>
+      <button className="togglebtn">Toggle</button>
       <AddStudent fetchdata={fetchdata}/>
       <ShowStudents data = {data}/>
       {/* Show either  AddStudent component or ShowStudents dependeing on the above button click  */}

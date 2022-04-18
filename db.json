@@ -65,6 +65,17 @@
       "twelth_score": "76",
       "preferred_branch": "",
       "id": 6
+    },
+    {
+      "first_name": "john",
+      "last_name": "peter",
+      "email": "johnpeter@gmail.com",
+      "gender": "male",
+      "age": "45",
+      "tenth_score": "56",
+      "twelth_score": "78",
+      "preferred_branch": "sports",
+      "id": 7
     }
   ]
 }
