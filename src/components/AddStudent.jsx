@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-export const AddStudent = () => {
+export const AddStudent = ({fetchdata}) => {
     const inisial_state = {
         first_name : "",
         last_name : "",
@@ -29,6 +29,7 @@ export const AddStudent = () => {
        // console.log(studentdata)
        axios.post("http://localhost:8080/students",studentdata)
        setStudentdata(inisial_state)
+       fetchdata()
     }
 
 

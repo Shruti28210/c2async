@@ -1,4 +1,5 @@
-export const ShowStudents = () => {
+export const ShowStudents = ({data}) => {
+    //console.log(data)
   return (
     <div>
       <div className="controls">
@@ -42,6 +43,7 @@ export const ShowStudents = () => {
         </thead>
         <tbody className="tbody">
           {/* populate all rows like below: */}
+          {data.map((el) => (<tr></tr>))}
           <tr className="row">
             <td className="first_name"></td>
             <td className="last_name"></td>
