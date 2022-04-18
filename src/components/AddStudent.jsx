@@ -126,6 +126,7 @@ export const AddStudent = ({fetchdata}) => {
         />{" "}
       </div>
       <div>
+      Preferred Branch:
         <select
           value={preferred_branch} // select dropdown needs both value and onChange attributes
           name="preferred_branch"
@@ -143,7 +144,7 @@ export const AddStudent = ({fetchdata}) => {
 
       <input className="submit" type="submit" value="Submit" />
       {
-        // <div className="error"></div>
+        <div className="error"></div>
         // show this div with proper error before submitting form, if there's anything not provided
         // eg: first name missing, age cannot be greater than 100 etc
       }

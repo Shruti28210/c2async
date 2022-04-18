@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <button className="togglebtn" onClick={() => setBox(!box)}>{box ? "Go To Students list" : "Add aNew Student"}</button>
+      <button className="togglebtn" onClick={() => setBox(!box)}>{box ? "go to students list" : "Add a new student"}</button>
       {box ? <AddStudent fetchdata={fetchdata}/> : <ShowStudents data = {data}/>}
       {/* <AddStudent fetchdata={fetchdata}/>
       <ShowStudents data = {data}/> */}

@@ -63,7 +63,7 @@
       "age": "23",
       "tenth_score": "98",
       "twelth_score": "76",
-      "preferred_branch": "",
+      "preferred_branch": "sports",
       "id": 6
     },
     {
@@ -87,6 +87,17 @@
       "twelth_score": "36",
       "preferred_branch": "commerce",
       "id": 8
+    },
+    {
+      "first_name": "rohan",
+      "last_name": "sadare",
+      "email": "rohan@gmail.com",
+      "gender": "male",
+      "age": "25",
+      "tenth_score": "98",
+      "twelth_score": "89",
+      "preferred_branch": "science",
+      "id": 9
     }
   ]
 }
