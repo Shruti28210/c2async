@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios'
 export const AddStudent = () => {
     const inisial_state = {
         first_name : "",
@@ -25,12 +26,14 @@ export const AddStudent = () => {
 
     const handlesubmit = (e) =>{
         e.preventDefault();
-        console.log(setStudentdata)
+       // console.log(studentdata)
+       axios.post("http://localhost:8080/students",studentdata)
+       setStudentdata(inisial_state)
     }
 
 
   return (
-    <form className="addstudent">
+    <form className="addstudent" onSubmit={handlesubmit}>
       <div>
         Firstname:
         <input
@@ -39,6 +42,7 @@ export const AddStudent = () => {
           value={first_name}
           className="first_name"
           placeholder="enter first name"
+          onChange={handleChange}
         />
       </div>
       <div>
@@ -50,6 +54,7 @@ export const AddStudent = () => {
           value={last_name}
           className="last_name"
           placeholder="enter last name"
+          onChange={handleChange}
         />
       </div>
       <div>
@@ -61,6 +66,7 @@ export const AddStudent = () => {
           value={email}
           className="email"
           placeholder="enter email"
+          onChange={handleChange}
         />
       </div>
 
@@ -73,6 +79,7 @@ export const AddStudent = () => {
             className="male"
             type="radio"
             value={"male"}
+            onChange={handleChange}
           />{" "}
           Female{" "}
           <input
@@ -80,6 +87,7 @@ export const AddStudent = () => {
             className="female"
             type="radio"
             value={"female"}
+            onChange={handleChange}
           />
         </div>
       </div>
@@ -91,6 +99,7 @@ export const AddStudent = () => {
           value={age}
           className="age"
           placeholder="enter age"
+          onChange={handleChange}
         />
       </div>
       <div>
@@ -101,6 +110,7 @@ export const AddStudent = () => {
           value={tenth_score}
           className="tenth_score"
           placeholder="enter 10th score"
+          onChange={handleChange}
         />{" "}
       </div>
       <div>
@@ -111,6 +121,7 @@ export const AddStudent = () => {
           value={twelth_score}
           className="twelth_score"
           placeholder="enter 12th score"
+          onChange={handleChange}
         />{" "}
       </div>
       <div>
@@ -118,6 +129,7 @@ export const AddStudent = () => {
           value={preferred_branch} // select dropdown needs both value and onChange attributes
           name="preferred_branch"
           className="preferred_branch"
+          onChange={handleChange}
         >
           <option value="law">law</option>
           <option value="commerce">commerce</option>

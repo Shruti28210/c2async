@@ -1,3 +1,70 @@
 {
-    "students":[]
+  "students": [
+    {
+      "first_name": "Shruti",
+      "last_name": "Waghmode",
+      "email": "waghmodeshru@gmail.com",
+      "gender": "female",
+      "age": "22",
+      "tenth_score": "98",
+      "twelth_score": "56",
+      "preferred_branch": "sports",
+      "id": 1
+    },
+    {
+      "first_name": "samu",
+      "last_name": "Waghmode",
+      "email": "waghmodesamu@gmail.com",
+      "gender": "male",
+      "age": "12",
+      "tenth_score": "98",
+      "twelth_score": "95",
+      "preferred_branch": "science",
+      "id": 2
+    },
+    {
+      "first_name": "sai",
+      "last_name": "Waghmode",
+      "email": "waghmodesai@gmail.com",
+      "gender": "female",
+      "age": "13",
+      "tenth_score": "99",
+      "twelth_score": "78",
+      "preferred_branch": "acting",
+      "id": 3
+    },
+    {
+      "first_name": "surendra",
+      "last_name": "Waghmode",
+      "email": "waghmodesurendra@gmail.com",
+      "gender": "male",
+      "age": "56",
+      "tenth_score": "89",
+      "twelth_score": "35",
+      "preferred_branch": "commerce",
+      "id": 4
+    },
+    {
+      "first_name": "neeta",
+      "last_name": "Waghmode",
+      "email": "waghmodeneeta@gmail.com",
+      "gender": "female",
+      "age": "45",
+      "tenth_score": "89",
+      "twelth_score": "65",
+      "preferred_branch": "arts",
+      "id": 5
+    },
+    {
+      "first_name": "nil",
+      "last_name": "Waghmode",
+      "email": "waghmodenil@gmail.com",
+      "gender": "male",
+      "age": "23",
+      "tenth_score": "98",
+      "twelth_score": "76",
+      "preferred_branch": "",
+      "id": 6
+    }
+  ]
 }
