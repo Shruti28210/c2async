@@ -109,6 +109,17 @@
       "twelth_score": "78",
       "preferred_branch": "science",
       "id": 10
+    },
+    {
+      "first_name": "sonu",
+      "last_name": "karnik",
+      "email": "karnik@gmail.com",
+      "gender": "female",
+      "age": "26",
+      "tenth_score": "85",
+      "twelth_score": "46",
+      "preferred_branch": "acting",
+      "id": 11
     }
   ]
 }
