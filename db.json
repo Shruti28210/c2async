@@ -98,6 +98,17 @@
       "twelth_score": "89",
       "preferred_branch": "science",
       "id": 9
+    },
+    {
+      "first_name": "manu",
+      "last_name": "sadare",
+      "email": "manu@gmail.com",
+      "gender": "female",
+      "age": "26",
+      "tenth_score": "99",
+      "twelth_score": "78",
+      "preferred_branch": "science",
+      "id": 10
     }
   ]
 }

@@ -21,6 +21,9 @@
   font-size: 30px;
   border-radius: 15px;
 }
+.table{
+  margin: auto;
+}
 .addstudent{
   margin: auto;
   margin-top: 10px;
